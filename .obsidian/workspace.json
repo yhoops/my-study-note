@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b5a1e1a5ba5daf9a",
+        "id": "62e6735e4863a9a6",
         "type": "tabs",
         "children": [
           {
-            "id": "9aac5ed28378cb57",
+            "id": "31cedcc15597bc2b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -86,43 +90,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dee5a65738cb44b3",
+        "id": "3d0bf35144982e70",
         "type": "tabs",
         "children": [
           {
-            "id": "03480487b1eb441d",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
-            "id": "5aa2d3c8680c3119",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "4440e7b8f75649ac",
+            "id": "a265dc1b21bbc3cc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Python数据分析/note/Numpy相关内容.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,11 +113,12 @@
             }
           },
           {
-            "id": "b453879f156edaed",
+            "id": "1e74a7fbae44931b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Python数据分析/note/Numpy相关内容.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -149,7 +127,7 @@
             }
           },
           {
-            "id": "2b86dbf7be8554e0",
+            "id": "5d6440e90a021977",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,13 +142,42 @@
             }
           },
           {
-            "id": "ef15a93e90e2012b",
+            "id": "f103984556a171d6",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2fdc40d7813b2c7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "483600ccc2f3df7f",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
@@ -178,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 491.0999755859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,15 +197,18 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "opencode:Opencode terminal": false,
-      "opencode:Opencode conversations": false
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "9aac5ed28378cb57",
+  "active": "31cedcc15597bc2b",
   "lastOpenFiles": [
+    "README.md",
+    "Python数据分析/note/Numpy相关内容.md",
+    "Python数据分析/code/Numpy学习.ipynb~",
+    "Python数据分析/code/Numpy学习.ipynb",
+    "Python数据分析/code/第1个Jupyter笔记-checkpoint.ipynb",
     "虚拟环境venv.conda/note.md",
     "Python数据分析/env.yml",
-    "Python数据分析/note/1. 课程导论.md",
     "Python数据分析/code/第1个Jupyter笔记.ipynb",
     "Python数据分析/code/Untitled.ipynb",
     "Python数据分析/note/assets",
@@ -211,13 +221,10 @@
     "虚拟环境venv.conda/assets/Pasted image 20260807132614 1.png",
     "虚拟环境venv.conda/assets/image-20260807112351122.png",
     "assets/Pasted.md",
-    "assets",
     "虚拟环境venv.conda/assets/image-20260807111846271.png",
     "虚拟环境venv.conda/assets/image-20260807111643567.png",
     "虚拟环境venv.conda/assets/image-20260807105654712.png",
     "虚拟环境venv.conda/assets/image-20260807104959464.png",
-    "虚拟环境venv.conda/assets/image-20260807104729848.png",
-    "虚拟环境venv.conda/assets",
-    "虚拟环境venv.conda/code/myvenv/Scripts/requirements.txt"
+    "虚拟环境venv.conda/assets/image-20260807104729848.png"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1786112318961-r7e9uzbrm",
+  "providerId": "opencode",
+  "title": "生成GitHub笔记仓库技术文档索引",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786112318978,
+  "lastActivityAt": 1786112583776,
+  "sessionId": "ses_02368d446ffeivaNCTiN45LUIE",
+  "selectedModel": "opencode:opencode/deepseek-v4-flash-free",
+  "providerState": {
+    "databasePath": "C:\\Users\\Administrator\\AppData\\Roaming\\opencode\\opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 72887,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode/deepseek-v4-flash-free",
+    "percentage": 36
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1786091366521-liufchyni",
+  "providerId": "opencode",
+  "title": "优化笔记内容及结构",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786091366525,
+  "lastActivityAt": 1786112173036,
+  "sessionId": "ses_024a88aa9ffe4TTP4c0xiGFGhM",
+  "selectedModel": "opencode:opencode/deepseek-v4-flash-free",
+  "providerState": {
+    "databasePath": "C:\\Users\\Administrator\\AppData\\Roaming\\opencode\\opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "currentNote": "Python数据分析/note/Numpy相关内容.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextTokens": 48685,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 0,
+    "model": "opencode/deepseek-v4-flash-free",
+    "percentage": 24
+  }
+}

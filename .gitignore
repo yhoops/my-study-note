@@ -1,3 +1,20 @@
-# 虚拟环境 / Python 解释器 —— 不提交到仓库
+# ============ 虚拟环境 / Python 解释器（不提交）============
+
+# venv / virtualenv 系列（任意层级）
+venv/
+.venv/
+myvenv/
+env/
+.env/
+
+# conda 系列
+.conda/
+
+# 本仓库现有虚拟环境（显式声明，便于识别）
 Python数据分析/.conda/
 虚拟环境venv.conda/code/myvenv/
+
+# ============ Python 缓存与构建产物 ============
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

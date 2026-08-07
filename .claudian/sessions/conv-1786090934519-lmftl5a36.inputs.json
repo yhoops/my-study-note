@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1786090934519-lmftl5a36",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786091165403-sw652hv",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1786091165251-ixq56y4",
+      "timestamp": 1786091165251,
+      "rawDisplayText": "优化当前笔记",
+      "canonicalText": "优化当前笔记",
+      "context": {
+        "currentNote": {
+          "path": "Python数据分析/note/Numpy相关内容.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "5e342514666ad79b010b64ea81076b31978ce0dd269e111fd69dfff9152bf5c3",
+      "providerUserMessageId": "b81b3f58-c3af-4511-8918-2a9a2b0874f1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786091318668-gl74q0s",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1786091318655-c8jojj9",
+      "timestamp": 1786091318655,
+      "rawDisplayText": "1",
+      "canonicalText": "1",
+      "images": [],
+      "contentDigest": "b03f38f260c9190224b5f5c2ff27d2f41a7ca7215b4c1d8e04a68a5dc9890b6b"
+    }
+  ]
+}

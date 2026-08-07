@@ -1,0 +1,149 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "opencode:opencode/deepseek-v4-flash-free",
+  "thinkingBudget": "default",
+  "effortLevel": "max",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "enabled": false,
+      "safeMode": "auto",
+      "cliPath": "",
+      "cliPathsByHost": {
+        "device:feb15daf-ddc2-4403-a825-e12746646552": "E:\\Scoop\\apps\\nodejs\\current\\bin\\claude.cmd"
+      },
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "customModels": "",
+      "lastModel": "opus",
+      "modelEnvironmentType": "opus",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "",
+      "environmentHash": "runtime-input:v1:65e2167f0e740f2e6d72f8350440c66c8fe768dc86283d7cf0b7b473f3849977"
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "customModels": "",
+      "discoveredModels": [],
+      "modelAliases": {},
+      "visibleModels": null,
+      "enableUltraEffort": false,
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "catalogTimestamp": 0,
+      "catalogFingerprint": "",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {}
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {
+        "device:feb15daf-ddc2-4403-a825-e12746646552": "E:\\CLI\\opencode\\opencode.cmd"
+      },
+      "enabled": true,
+      "environmentHash": "runtime-input:v1:500fe26d53f3f25e2ff1c3ab6bc29c4dd45c12f361b7ed0f1b506ff61239b8c3",
+      "environmentVariables": "OPENCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "preferredThinkingByModel": {
+        "opencode/deepseek-v4-flash-free": "max"
+      },
+      "selectedMode": "",
+      "thinkingOptionsByModel": {
+        "opencode/deepseek-v4-flash-free": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          }
+        ]
+      },
+      "visibleModels": [
+        "opencode/deepseek-v4-flash-free",
+        "opencode/mimo-v2.5-free"
+      ]
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
+    }
+  },
+  "settingsProvider": "opencode",
+  "savedProviderModel": {
+    "claude": "opus",
+    "opencode": "opencode:opencode/deepseek-v4-flash-free"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "opencode": "max"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "opencode": "yolo"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "lastCustomModel": "",
+  "maxWarmAgentProcesses": 5,
+  "enableAutoScroll": true,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedNotePaths": [],
+  "hiddenProviderCommands": {}
+}
