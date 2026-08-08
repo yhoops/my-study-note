@@ -1,10 +1,10 @@
 {
   "id": "conv-1786112318961-r7e9uzbrm",
   "providerId": "opencode",
-  "title": "生成GitHub笔记仓库技术文档索引",
+  "title": "在.gitignore中添加文件夹",
   "titleGenerationStatus": "success",
   "createdAt": 1786112318978,
-  "lastActivityAt": 1786112583776,
+  "lastActivityAt": 1786155432934,
   "sessionId": "ses_02368d446ffeivaNCTiN45LUIE",
   "selectedModel": "opencode:opencode/deepseek-v4-flash-free",
   "providerState": {
@@ -16,9 +16,9 @@
     "cacheReadInputTokens": 0,
     "contextTokens": 72887,
     "contextWindow": 200000,
-    "contextWindowIsAuthoritative": true,
+    "contextWindowIsAuthoritative": false,
     "inputTokens": 0,
-    "model": "opencode/deepseek-v4-flash-free",
+    "model": "opencode:opencode/deepseek-v4-flash-free",
     "percentage": 36
   }
 }
