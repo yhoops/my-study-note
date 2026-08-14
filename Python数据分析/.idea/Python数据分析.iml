@@ -5,8 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/.conda/DLLs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.conda/Lib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.conda/Lib/site-packages" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.conda" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (Python数据分析)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="E:\Study\my-study-note\Python数据分析\.conda" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">

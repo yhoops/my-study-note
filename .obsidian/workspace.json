@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc3652d1f9d5d4fc",
+        "id": "d684e5c11354f235",
         "type": "tabs",
         "children": [
           {
-            "id": "ab980fd0a6d97a16",
+            "id": "ff083105d662a860",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Python数据分析/note/Pandas相关内容.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Pandas相关内容"
             }
           }
         ]
@@ -166,13 +170,13 @@
             }
           },
           {
-            "id": "8344baceaecf4bc1",
+            "id": "368e929e4d022e92",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -180,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 491.0999755859375
+    "width": 491.0999755859375,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,9 +200,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "ab980fd0a6d97a16",
+  "active": "ff083105d662a860",
   "lastOpenFiles": [
+    "Python数据分析/code/Pandas学习.ipynb~",
+    "Python数据分析/code/Pandas学习.ipynb",
     "Python数据分析/note/Numpy相关内容.md",
+    "Python数据分析/note/Pandas相关内容.md",
     "README.md",
     "Python数据分析/code/Numpy学习.ipynb~",
     "Python数据分析/code/Numpy学习.ipynb",
@@ -209,7 +217,6 @@
     "Python数据分析/note/assets",
     "Python数据分析/code",
     "Python数据分析/note",
-    "Python数据分析",
     "未命名.canvas",
     "虚拟环境venv.conda/assets/Pasted image 20260807132614.png",
     "虚拟环境venv.conda/assets/image-20260807112636737.png",

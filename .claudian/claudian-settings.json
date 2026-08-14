@@ -1,9 +1,9 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "opencode:opencode/deepseek-v4-flash-free",
+  "model": "opus",
   "thinkingBudget": "default",
-  "effortLevel": "max",
+  "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -25,7 +25,7 @@
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "auto",
       "cliPath": "",
       "cliPathsByHost": {
@@ -39,7 +39,7 @@
       "modelEnvironmentType": "opus",
       "titleModelEnvironmentType": "",
       "environmentVariables": "",
-      "environmentHash": "runtime-input:v1:65e2167f0e740f2e6d72f8350440c66c8fe768dc86283d7cf0b7b473f3849977"
+      "environmentHash": "runtime-input:v1:e3a3492dd19704352b6e2501d1a2b99adce7d5f569db6949d679b1043fb89aa1"
     },
     "codex": {
       "enabled": false,
@@ -76,8 +76,8 @@
       "cliPathsByHost": {
         "device:feb15daf-ddc2-4403-a825-e12746646552": "E:\\CLI\\opencode\\opencode.cmd"
       },
-      "enabled": true,
-      "environmentHash": "runtime-input:v1:500fe26d53f3f25e2ff1c3ab6bc29c4dd45c12f361b7ed0f1b506ff61239b8c3",
+      "enabled": false,
+      "environmentHash": "runtime-input:v1:cde6b9169554807fe72833bbce30dd35aceb6b70c35d48d4aed06a745da75cc5",
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {
@@ -118,7 +118,7 @@
       "visibleModels": []
     }
   },
-  "settingsProvider": "opencode",
+  "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
     "opencode": "opencode:opencode/deepseek-v4-flash-free"

@@ -5,12 +5,8 @@
   "titleGenerationStatus": "success",
   "createdAt": 1786112318978,
   "lastActivityAt": 1786155432934,
-  "sessionId": "ses_02368d446ffeivaNCTiN45LUIE",
+  "sessionId": null,
   "selectedModel": "opencode:opencode/deepseek-v4-flash-free",
-  "providerState": {
-    "databasePath": "C:\\Users\\Administrator\\AppData\\Roaming\\opencode\\opencode.db",
-    "nativeConversationContextEstablished": true
-  },
   "usage": {
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,

@@ -5,12 +5,8 @@
   "titleGenerationStatus": "success",
   "createdAt": 1786091366525,
   "lastActivityAt": 1786112173036,
-  "sessionId": "ses_024a88aa9ffe4TTP4c0xiGFGhM",
+  "sessionId": null,
   "selectedModel": "opencode:opencode/deepseek-v4-flash-free",
-  "providerState": {
-    "databasePath": "C:\\Users\\Administrator\\AppData\\Roaming\\opencode\\opencode.db",
-    "nativeConversationContextEstablished": true
-  },
   "currentNote": "Python数据分析/note/Numpy相关内容.md",
   "usage": {
     "cacheCreationInputTokens": 0,

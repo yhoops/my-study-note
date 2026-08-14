@@ -5,10 +5,12 @@
   "titleGenerationStatus": "failed",
   "createdAt": 1786090934527,
   "lastActivityAt": 1786091352668,
-  "sessionId": "343fa4dd-eb09-40c0-85e2-0463413fc9ad",
+  "sessionId": null,
   "selectedModel": "opus",
   "providerState": {
-    "providerSessionId": "343fa4dd-eb09-40c0-85e2-0463413fc9ad"
+    "previousProviderSessionIds": [
+      "343fa4dd-eb09-40c0-85e2-0463413fc9ad"
+    ]
   },
   "currentNote": "Python数据分析/note/Numpy相关内容.md"
 }
