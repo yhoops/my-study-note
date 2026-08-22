@@ -3,7 +3,7 @@
   "permissionMode": "yolo",
   "model": "opus",
   "thinkingBudget": "default",
-  "effortLevel": "high",
+  "effortLevel": "medium",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -124,7 +124,7 @@
     "opencode": "opencode:opencode/deepseek-v4-flash-free"
   },
   "savedProviderEffort": {
-    "claude": "high",
+    "claude": "medium",
     "opencode": "max"
   },
   "savedProviderServiceTier": {},
