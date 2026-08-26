@@ -6,6 +6,8 @@
     <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
     <img src="https://img.shields.io/badge/NumPy-2.5-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
     <img src="https://img.shields.io/badge/pandas-3.0-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
+    <img src="https://img.shields.io/badge/Matplotlib-3.11-11557C?style=flat-square&logo=python&logoColor=white" alt="Matplotlib"/>
+    <img src="https://img.shields.io/badge/seaborn-0.13-4C72B0?style=flat-square" alt="seaborn"/>
     <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
     <img src="https://img.shields.io/badge/Socket%20%26%20Threading-4B8BBE?style=flat-square" alt="Socket & Threading"/>
     <img src="https://img.shields.io/github/last-commit/yhoops/my-study-note?style=flat-square&label=Last%20Commit" alt="Last Commit"/>
@@ -46,7 +48,7 @@
 | Day 5 | 线程同步、迭代器与生成器、正则表达式 | [Day05_随堂笔记](./Python/Day3%20Day5/Day05_随堂笔记.md) | [`Code/day05/`](./Python/Code/day05/) · 19 个示例 |
 | Day 6 | 数据结构：顺序表与链表 | [Day06_随堂笔记](./Python/Day6/Day06_随堂笔记.md) | 内嵌于笔记 |
 | Day 7 | 算法：三大排序、二分查找、二叉树 | [Day07_随堂笔记](./Python/Day7/Day07_随堂笔记.md) | 内嵌于笔记 |
-| 专题 | 数据分析：NumPy / pandas / Matplotlib | [`Python数据分析/note/`](./Python数据分析/note/) | [`Python数据分析/code/`](./Python数据分析/code/) · 4 个 Notebook |
+| 专题 | 数据分析：NumPy / pandas / Matplotlib | [`Python数据分析/note/`](./Python数据分析/note/) | [`Python数据分析/code/`](./Python数据分析/code/) · 6 个 Notebook |
 | 专题 | 工程化：虚拟环境与依赖隔离 | [虚拟环境 note](./虚拟环境venv.conda/note.md) | — |
 
 ---
@@ -207,7 +209,7 @@
 |------|:----:|----------|
 | [Numpy 相关内容](./Python数据分析/note/Numpy相关内容.md) | ✅ 完成 | ① 介绍 ② `ndarray`（多维 / 同质 / 属性 / 创建 / 数据类型 / 索引切片 / 运算与**广播机制** / 矩阵乘法 `@`）③ 常用函数：基本数学函数、统计函数（均值、中位数、方差标准差、`argmax`/`argmin`、**分位数计算原理**）、比较函数（`np.where` 嵌套、`np.select`）、去重、拼接与分割、`reshape`、排序 ④ **缺失知识点清单**（视图与内存机制、高级索引、`np.linalg`、傅里叶变换、`np.random`、文件 I/O、字符串数组、性能与向量化） |
 | [Pandas 相关内容](./Python数据分析/note/Pandas相关内容.md) | ✅ 完成 | ① 简介 ② **Series**（属性、创建、显式/隐式索引、`at`/`iat`、布尔索引、去重与排序、**时间序列**重采样与滑动窗口、实战案例）③ **DataFrame**（属性、创建、数据概览）④ 数据导入导出（含嵌套 JSON 的稳妥读法）⑤ **数据清洗**（缺失值识别/剔除/填充、重复值、类型转换与 `map` 映射）⑥ **数据变形与重构**（`melt`/`pivot` 宽长表互转、字符串分列、`pd.cut` 数据分箱、索引与列名修改）⑦ **时间数据处理**（`Timestamp`、`dt` 访问器、`parse_dates`、时间切片、`Timedelta`、`date_range`、`resample`）⑧ **分组聚合**（`groupby`、多字段分组、`agg` 多指标聚合）⑨ 综合实战 |
-| [Matplotlib 学习笔记](./Python数据分析/note/Matlplotlib学习笔记.md) | 🚧 进行中 | 数据可视化三原则：**信**（表达准确，避免误导）、**达**（高效传达有效信息）、**雅**（布局与配色美观） |
+| [Matplotlib 学习笔记](./Python数据分析/note/Matlplotlib学习笔记.md) | ✅ 完成 | ① 可视化三原则：**信**（表达准确，避免误导）、**达**（高效传达有效信息）、**雅**（布局与配色美观）② 常见图表与箱型图要素 ③ 可视化基础（matplotlib / seaborn / pandas plot 工具对比）④ **Matplotlib 基础绘图**（绘图通用流程与中文字体配置、画布与装饰函数速查、折线图 `plot`、柱状图 `bar`、条形图 `barh`、饼图 / 环形图 / 爆炸式饼图 `pie`、散点图 `scatter` 与回归参考线、箱线图 `boxplot`、多子图 `subplot`、**图表类型选择表**）⑤ 分析案例：气温趋势与降水直方图（`weather.csv`）⑥ **Seaborn 常用统计图**（`histplot` / `kdeplot` / `countplot` 单变量分布，`scatterplot` / `jointplot` 蜂窝图 / 二维 `kdeplot` 双变量关系，`barplot` 分组聚合，`pairplot` 成对关系）⑦ **项目实战：房地产市场洞察**（清洗与特征构造 → 相关性热力图 → 房价分布 → 朝向溢价箱线图）—— 全篇 25 张图均由配套 Notebook 代码实际渲染 |
 
 ### Jupyter 实践
 
@@ -217,11 +219,16 @@
 | [Pandas-Series 学习](./Python数据分析/code/Pandas-Series学习.ipynb) | Series 的创建、索引访问、属性与常用方法练习 | `#pandas` `#Series` |
 | [Pandas-DataFrame 学习](./Python数据分析/code/Pandas-DataFrame学习.ipynb) | DataFrame 的多种创建方式与数据概览练习 | `#pandas` `#DataFrame` |
 | [数据分析](./Python数据分析/code/数据分析.ipynb) | **综合主线 Notebook**：数据导入 → 清洗 → 变形分箱 → 时间处理 → 分组聚合，并落地两个完整案例 | `#实战` `#EDA` |
+| [Matplotlib 学习](./Python数据分析/code/Matplotlib学习.ipynb) | 五类基础图表（折线 / 条形 / 饼 / 散点 / 箱线）+ 多子图 + 天气分析案例 + seaborn 统计图 | `#Matplotlib` `#seaborn` `#可视化` |
+| [项目实战·房地产市场分析](./Python数据分析/code/项目实战-房地产市场分析.ipynb) | 10 万条二手房数据：清洗 → 特征构造 → 按问题编号（A1/A2/A6）分析并可视化 | `#实战` `#数据清洗` `#热力图` |
 
-**两个完整实战案例**（位于 [数据分析.ipynb](./Python数据分析/code/数据分析.ipynb)，笔记同步收录于 Pandas 笔记第 9 章）：
+**三个完整实战案例**：
 
-1. **企鹅数据分析**（`penguins.csv`）—— 导入 → 缺失值处理 → `category` 特征构造 → 体重分箱（低/中/高）→ 按性别与岛屿分组统计体重均值与样本数
-2. **睡眠健康数据分析**（`sleep.csv`）—— 缺失过多的 `sleep_disorder` 直接删列 → 特征构造 → 年龄段 + BMI 分组，观察睡眠时长、睡眠质量与压力水平的关系
+1. **企鹅数据分析**（`penguins.csv`，位于 [数据分析.ipynb](./Python数据分析/code/数据分析.ipynb)）—— 导入 → 缺失值处理 → `category` 特征构造 → 体重分箱（低/中/高）→ 按性别与岛屿分组统计体重均值与样本数
+2. **睡眠健康数据分析**（`sleep.csv`，位于 [数据分析.ipynb](./Python数据分析/code/数据分析.ipynb)）—— 缺失过多的 `sleep_disorder` 直接删列 → 特征构造 → 年龄段 + BMI 分组，观察睡眠时长、睡眠质量与压力水平的关系
+3. **房地产市场洞察与价值评估**（`house_sales.csv`，位于 [项目实战-房地产市场分析.ipynb](./Python数据分析/code/项目实战-房地产市场分析.ipynb)）—— 106118 条原始记录经去重（29416 条重复）、单位剥离与 IQR 异常值处理后保留 26135 条 → 构造地区 / 楼层类型 / 楼龄 / 价格分箱等特征 → 三个分析结论：**单价对总价影响最大**（相关系数 0.74，面积 0.45，楼龄仅 0.09）、**房价右偏**（均值 117 万 > 中位数 103 万）、**南北向仅比南向贵约 4.3%**（小样本朝向的均值不可靠）
+
+> 前两个案例的笔记同步收录于 Pandas 笔记第 9 章；第三个案例与全部可视化图表同步收录于 Matplotlib 笔记第 5—7 章。
 
 ### 配套数据集
 
@@ -229,11 +236,12 @@
 
 | 数据集 | 用途 |
 |--------|------|
-| `penguins.csv` | 企鹅综合案例（分箱、分组聚合） |
+| `penguins.csv` | 企鹅综合案例（分箱、分组聚合）、seaborn 统计图示例 |
 | `sleep.csv` | 睡眠健康综合案例（类型转换、分箱） |
-| `weather.csv` / `weather_withna.csv` | 时间序列处理、`resample` 重采样、缺失值填充 |
+| `weather.csv` / `weather_withna.csv` | 时间序列处理、`resample` 重采样、缺失值填充、气温趋势与降水直方图 |
 | `employees.csv` | `groupby` 多字段分组与 `agg` 多指标聚合 |
-| `house_sales.csv` / `new.csv` | 数据导入导出练习 |
+| `house_sales.csv` | **房地产实战案例**（10 万条二手房数据的清洗、特征构造与可视化） |
+| `new.csv` | 数据导入导出练习 |
 | `data1.json` / `products.json` / `test.json` | JSON 读取与嵌套结构处理 |
 | `output/employees_tail.csv` | 数据导出练习产物 |
 
@@ -253,14 +261,18 @@
 
 数据分析板块的 conda 环境已导出为 [`Python数据分析/env.yml`](./Python数据分析/env.yml)，核心依赖：`python 3.14.6` · `numpy 2.5.1` · `pandas 3.0.5` · `matplotlib 3.11.1`。
 
+> `env.yml` 为 seaborn 引入之前的快照，尚未包含 `seaborn`（实际使用 0.13.2）。用方式一还原后需补装：`conda install seaborn -c conda-forge`。
+
 ```bash
 # 方式一：从 env.yml 完整还原（含 build 号，跨平台可能失败）
 conda env create -f Python数据分析/env.yml -n study-note
 
 # 方式二：手动创建最小环境（推荐，跨平台稳妥）
-conda create -n study-note python=3.14 numpy pandas matplotlib jupyter -c conda-forge
+conda create -n study-note python=3.14 numpy pandas matplotlib seaborn jupyter -c conda-forge
 conda activate study-note
 ```
+
+> **中文显示**：绘图前需配置中文字体，否则中文标题与标签会显示为方框（Windows 用 `SimHei`，macOS 用 `AppleGothic`），并设置 `rcParams['axes.unicode_minus'] = False` 解决负号乱码，详见 Matplotlib 笔记 4.1。
 
 `Python/` 下的示例代码仅依赖标准库（`socket`、`multiprocessing`、`threading`、`re`、`copy`、`itertools`），无需额外安装即可运行：
 
@@ -277,12 +289,12 @@ python Python/Code/day05/05_多线程操作_互斥锁.py
 | 指标 | 数值 |
 |------|:----:|
 | 随堂笔记 / 结构化笔记（Markdown） | 11 |
-| Jupyter Notebook | 4 |
+| Jupyter Notebook | 6 |
 | Python 示例代码（`.py`） | 48 |
-| 笔记配图（PNG） | 41 |
+| 笔记配图（PNG） | 68 |
 | 数据集与素材（CSV / JSON / TXT） | 14 |
 | 覆盖天数 | Day 1 – Day 7 + 2 个专题 |
-| 覆盖主题 | 面向对象（封装 / 继承 / 多态 / 抽象类 / MRO）· 魔法方法 · 闭包 · 装饰器 · 深浅拷贝 · Socket 网络编程 · 多进程 · 多线程 · 互斥锁 · 迭代器 · 生成器 · property · 正则表达式 · 顺序表 · 单链表 · 排序算法 · 二分查找 · 二叉树 · NumPy · pandas · Matplotlib · 虚拟环境 |
+| 覆盖主题 | 面向对象（封装 / 继承 / 多态 / 抽象类 / MRO）· 魔法方法 · 闭包 · 装饰器 · 深浅拷贝 · Socket 网络编程 · 多进程 · 多线程 · 互斥锁 · 迭代器 · 生成器 · property · 正则表达式 · 顺序表 · 单链表 · 排序算法 · 二分查找 · 二叉树 · NumPy · pandas · Matplotlib · seaborn · 数据可视化 · 虚拟环境 |
 
 ---
 
@@ -311,13 +323,16 @@ my-study-note/
 │   ├── note/                            #   结构化长篇笔记
 │   │   ├── Numpy相关内容.md              #     NumPy 全量笔记 + 待补清单
 │   │   ├── Pandas相关内容.md             #     pandas 全量笔记（9 章）
-│   │   └── Matlplotlib学习笔记.md        #     Matplotlib（进行中）
+│   │   ├── Matlplotlib学习笔记.md        #     Matplotlib + seaborn 全量笔记（7 章，25 张实绘图）
+│   │   └── assets/                      #     笔记配图与图表渲染产物
 │   ├── code/                            #   Jupyter 实践
 │   │   ├── Numpy学习.ipynb
 │   │   ├── Pandas-Series学习.ipynb
 │   │   ├── Pandas-DataFrame学习.ipynb
 │   │   ├── 数据分析.ipynb                #     综合主线 + 两个实战案例
-│   │   ├── data/                        #     企鹅、睡眠、天气、员工等数据集
+│   │   ├── Matplotlib学习.ipynb          #     五类基础图表 + 多子图 + seaborn
+│   │   ├── 项目实战-房地产市场分析.ipynb   #     10 万条二手房数据实战
+│   │   ├── data/                        #     企鹅、睡眠、天气、员工、二手房等数据集
 │   │   └── output/                      #     导出产物
 │   ├── env.yml                          #   conda 环境导出（可复现）
 │   └── .conda/                          #   环境本体（不提交）
@@ -348,4 +363,4 @@ my-study-note/
 - 所有链接均为仓库内**相对路径**，保持目录结构不变即可保证链接有效；路径含空格的目录（如 `Day3 Day5`）在链接中需写作 `Day3%20Day5`。
 - 虚拟环境目录（`Python数据分析/.conda/`、`虚拟环境venv.conda/code/myvenv/`）与 Python 缓存已在 `.gitignore` 中排除；`虚拟环境venv.conda/note.md` 与 `assets/` 属笔记内容，正常提交。
 - `.gitignore` 中虽已声明忽略 `.idea/`、`.obsidian/`、`.claudian/`，但这些目录在早期提交中已被纳入版本控制，`.gitignore` 对**已跟踪文件无效**。若希望彻底移出仓库，需执行一次 `git rm -r --cached .idea .obsidian .claudian` 后再提交。
-- 待补充内容：Matplotlib 笔记正在完善；NumPy 笔记末尾的「缺失知识点清单」为后续学习的 TODO 列表。
+- 待补充内容：NumPy 笔记末尾的「缺失知识点清单」为后续学习的 TODO 列表；房地产实战中编号 A3—A5 等问题尚未展开。

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "57e0f4bae102d2d5",
+        "id": "cad80efd59360458",
         "type": "tabs",
         "children": [
           {
-            "id": "918b89dff1707b32",
+            "id": "a19a22d2074fe09b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python数据分析/note/Matlplotlib学习笔记.md",
+                "file": "大模型基础认知/大模型基础认知.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matlplotlib学习笔记"
+              "title": "大模型基础认知"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python数据分析/note/Numpy相关内容.md",
+                "file": "大模型基础认知/大模型基础认知.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python数据分析/note/Pandas相关内容.md",
+                "file": "大模型基础认知/大模型基础认知.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,7 +171,7 @@
             }
           },
           {
-            "id": "eb51734a8dcc5b24",
+            "id": "e5ebc5c309ccdace",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -200,34 +200,36 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "918b89dff1707b32",
+  "active": "fcb4a9b07e55e1cd",
   "lastOpenFiles": [
-    "README.md",
+    "大模型基础认知/pic/Pasted image 20260826162623.png",
+    "大模型基础认知/pic",
+    "大模型基础认知/pic/Pasted image 20260826162431.png",
+    "README.md.tmp.2024.26d52669e6e0",
+    "README.md.tmp.2024.5571db96682b",
+    "README.md.tmp.2024.b8d9dd045cc7",
+    "README.md.tmp.2024.d15c21c0add2",
+    "README.md.tmp.2024.3c762b99bf91",
+    "README.md.tmp.2024.4844d9b6859d",
+    "Python数据分析/note/Matlplotlib学习笔记.md.tmp.2024.4a5b44437cbd",
     "Python数据分析/note/Matlplotlib学习笔记.md",
-    "Python数据分析/note/assets/Pasted image 20260822212424.png",
-    "Pasted image 20260822212418.png",
+    "大模型基础认知/大模型基础认知.md",
+    "Python数据分析/note/assets/house_25_toward_box.png",
+    "Python数据分析/note/assets/house_24_price_hist.png",
+    "Python数据分析/note/assets/house_23_heatmap.png",
+    "Python数据分析/note/assets/sns_22_pairplot.png",
+    "Python数据分析/note/assets/sns_21_barplot.png",
+    "Python数据分析/note/assets/sns_20_kdeplot_2d.png",
+    "Python数据分析/note/assets/sns_19_jointplot_hex.png",
+    "Python数据分析/note/assets/sns_18_scatterplot_hue.png",
+    "Python数据分析/note/assets/sns_17_histplot_island.png",
+    "大模型基础认知",
+    "Python数据分析/code/_gen_note_figs.py",
+    "README.md",
     "Python数据分析/note/Pandas相关内容.md",
-    "Python数据分析/code/Pandas-DataFrame学习.ipynb",
-    "Python数据分析/code/Pandas-Series学习.ipynb",
-    "Python数据分析/code/DataFrame学习.ipynb",
-    "Python数据分析/note/Pandas相关内容.md.tmp.19828.b3bb970f0e7f",
-    "Python数据分析/code/Pandas学习.ipynb~",
-    "Python数据分析/code/Pandas学习.ipynb",
     "Python数据分析/note/Numpy相关内容.md",
-    "Python数据分析/code/Numpy学习.ipynb~",
-    "Python数据分析/code/Numpy学习.ipynb",
-    "Python数据分析/code/第1个Jupyter笔记-checkpoint.ipynb",
     "虚拟环境venv.conda/note.md",
-    "Python数据分析/env.yml",
     "未命名.canvas",
-    "虚拟环境venv.conda/assets/Pasted image 20260807132614.png",
-    "虚拟环境venv.conda/assets/image-20260807112636737.png",
-    "虚拟环境venv.conda/assets/Pasted image 20260807132614 1.png",
-    "虚拟环境venv.conda/assets/image-20260807112351122.png",
-    "assets/Pasted.md",
-    "虚拟环境venv.conda/assets/image-20260807111846271.png",
-    "虚拟环境venv.conda/assets/image-20260807111643567.png",
-    "虚拟环境venv.conda/assets/image-20260807105654712.png",
-    "虚拟环境venv.conda/assets/image-20260807104959464.png"
+    "assets/Pasted.md"
   ]
 }
